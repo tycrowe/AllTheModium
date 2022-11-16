@@ -49,7 +49,7 @@ public class AlloyShovel extends ShovelItem {
     {
         if (state.is(BlockTags.MINEABLE_WITH_SHOVEL))
             return TierSortingRegistry.isCorrectTierForDrops(ToolTiers.ALLOY_TIER, state);
-        if (state.is(ToolTiers.ALLTHEMODIUM_TOOL_TAG))
+        if (state.is(ToolTiers.ALLTHEMODIUM_TOOL_TAG) || state.is(ToolTiers.VIBRANIUM_TOOL_TAG) || state.is(ToolTiers.UNOBTAINIUM_TOOL_TAG))
             return TierSortingRegistry.isCorrectTierForDrops(ToolTiers.ALLOY_TIER, state);
         return false;
     }
