@@ -16,7 +16,7 @@
     "main": {
       "durability": 5500.0,
       "armor_durability": 1000.0,
-      "enchantability": 105.0,
+      "enchantment_value": 45.0,
       "harvest_level": 6.0,
       "harvest_speed": 28.0,
       "melee_damage": 85.0,
