@@ -1,0 +1,103 @@
+{
+  "availability": {
+    "tier": 6,
+    "visible": true,
+    "gear_blacklist": []
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/vibranium"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.vibranium"
+  },
+  "stats": {
+    "main": {
+      "durability": 5500.0,
+      "armor_durability": 1000.0,
+      "enchantability": 105.0,
+      "harvest_level": 6.0,
+      "harvest_speed": 28.0,
+      "melee_damage": 85.0,
+      "magic_damage": 47.0,
+      "attack_speed": 60.8,
+      "armor": 54.0,
+      "armor_toughness": 1000.0,
+      "magic_armor": 88.0,
+      "ranged_damage": 0.0,
+      "ranged_speed": 1.8,
+      "rarity": 95.0,
+      "silentgems:chargeability": 1.2
+    },
+    "rod": {
+      "durability": {
+        "mul2": 1.5
+      },
+      "enchantability": {
+        "add": 13.0
+      },
+      "rarity": 90.0
+    },
+    "tip": {
+      "durability": {
+        "add": 16.0
+      },
+      "harvest_level": {
+        "max": 6.0
+      },
+      "armor_durability": {
+        "add": 1.0
+      },
+      "harvest_speed": {
+        "add": 25.0
+      },
+      "magic_damage": {
+        "add": 2.0
+      },
+      "ranged_speed": {
+        "add": 0.9
+      },
+      "melee_damage": {
+        "add": 20.0
+      },
+      "rarity": {
+        "add": 60.0
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 6
+      },
+       {
+        "name": "silentgear:crushing",
+        "level": 6
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:hard",
+        "level": 6,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ],
+    "tip": [
+      {
+        "name": "silentgear:malleable",
+        "level": 6
+      },
+      {
+        "name": "silentgear:hard",
+        "level": 6
+      }
+    ]
+  }
+}
