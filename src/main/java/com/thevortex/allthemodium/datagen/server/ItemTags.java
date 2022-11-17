@@ -39,12 +39,20 @@ public class ItemTags extends ItemTagsProvider {
         tag(net.minecraft.tags.ItemTags.STONE_TOOL_MATERIALS).add(ModRegistry.ANCIENT_STONE_ITEM.get());
 
         tag(TagRegistry.FORGE_PICKAXES).add(ModRegistry.ALLTHEMODIUM_PICKAXE.get());
+        tag(TagRegistry.FORGE_PICKAXES).add(ModRegistry.VIBRANIUM_PICKAXE.get());
+        tag(TagRegistry.FORGE_PICKAXES).add(ModRegistry.UNOBTAINIUM_PICKAXE.get());
 
         tag(TagRegistry.FORGE_AXES).add(ModRegistry.ALLTHEMODIUM_AXE.get());
+        tag(TagRegistry.FORGE_AXES).add(ModRegistry.VIBRANIUM_AXE.get());
+        tag(TagRegistry.FORGE_AXES).add(ModRegistry.UNOBTAINIUM_AXE.get());
 
         tag(TagRegistry.FORGE_SHOVELS).add(ModRegistry.ALLTHEMODIUM_SHOVEL.get());
+        tag(TagRegistry.FORGE_SHOVELS).add(ModRegistry.VIBRANIUM_SHOVEL.get());
+        tag(TagRegistry.FORGE_SHOVELS).add(ModRegistry.UNOBTAINIUM_SHOVEL.get());
 
         tag(TagRegistry.FORGE_HOES).add(ModRegistry.ALLTHEMODIUM_HOE.get());
+        tag(TagRegistry.FORGE_HOES).add(ModRegistry.VIBRANIUM_HOE.get());
+        tag(TagRegistry.FORGE_HOES).add(ModRegistry.UNOBTAINIUM_HOE.get());
 
         tag(TagRegistry.FORGE_PICKAXES).add(ItemRegistry.ATM_ALLOY_PICK.get());
         tag(TagRegistry.FORGE_PICKAXES).add(ItemRegistry.ATM_ALLOY_PAXEL.get());
