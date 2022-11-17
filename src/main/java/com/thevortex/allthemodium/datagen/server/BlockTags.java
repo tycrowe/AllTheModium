@@ -86,10 +86,14 @@ public class BlockTags extends BlockTagsProvider {
 
         tag(NEEDS_NETHERITE_TOOL).add(ModRegistry.ALLTHEMODIUM_ORE.get());
         tag(NEEDS_NETHERITE_TOOL).add(ModRegistry.ALLTHEMODIUM_SLATE_ORE.get());
+        // Silent gear doesn't support higher tiers like this.
+        tag(NEEDS_NETHERITE_TOOL).add(ModRegistry.VIBRANIUM_ORE.get());
+        tag(NEEDS_NETHERITE_TOOL).add(ModRegistry.OTHER_VIBRANIUM_ORE.get());
+        tag(NEEDS_NETHERITE_TOOL).add(ModRegistry.UNOBTAINIUM_ORE.get());
+        // Mining the above blocks with netherite will take a lot longer but this is for support of SG.
         tag(TagRegistry.NEEDS_ALLTHEMODIUM_TOOL).add(ModRegistry.VIBRANIUM_ORE.get());
         tag(TagRegistry.NEEDS_ALLTHEMODIUM_TOOL).add(ModRegistry.OTHER_VIBRANIUM_ORE.get());
-        tag(TagRegistry.NEEDS_ALLTHEMODIUM_TOOL).add(ModRegistry.UNOBTAINIUM_ORE.get());
-
+        tag(TagRegistry.NEEDS_VIBRANIUM_TOOL).add(ModRegistry.UNOBTAINIUM_ORE.get());
 
         tag(net.minecraft.tags.BlockTags.MINEABLE_WITH_AXE).add(ModRegistry.DEMONIC_PLANKS.get());
         tag(net.minecraft.tags.BlockTags.MINEABLE_WITH_AXE).add(ModRegistry.DEMONIC_LOG.get());

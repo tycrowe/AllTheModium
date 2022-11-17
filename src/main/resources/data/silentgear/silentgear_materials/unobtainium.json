@@ -1,8 +1,12 @@
 {
   "availability": {
-    "tier": 7,
+    "tier": 5,
+    "categories": [
+      "metal"
+    ],
     "visible": true,
-    "gear_blacklist": []
+    "gear_blacklist": [],
+    "can_salvage": true
   },
   "crafting_items": {
     "main": {
@@ -17,7 +21,7 @@
       "durability": 10000.0,
       "armor_durability": 2000.0,
       "enchantment_value": 60.0,
-      "harvest_level": 7.0,
+      "harvest_level": 4.0,
       "harvest_speed": 48.0,
       "melee_damage": 233.0,
       "magic_damage": 65.0,
@@ -97,6 +101,53 @@
       {
         "name": "silentgear:hard",
         "level": 7
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#d152e3"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#d152e3"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc",
+        "color": "#d152e3"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#d152e3"
+      }
+    ],
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_sharp",
+        "color": "#d152e3"
+      }
+    ],
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#d152e3"
+      },
+      {
+        "texture": "silentgear:tip_shine"
       }
     ]
   }
